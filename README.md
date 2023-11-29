@@ -23,6 +23,9 @@ You might need to restart to complete installation
 git clone https://www.github.com/nandan-varma/notnice.git
 # clone repo
 
+cd notnice
+# set cwd
+
 cargo build
 # build project
 
