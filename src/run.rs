@@ -21,6 +21,14 @@ impl runtime{
     }
 
     pub fn run(r: runtime) {
-        tokenize("let x = 5;let y = 6;".to_string());
+        tokenize("let x = 5;\n
+        let y = 6;\n
+        print(x+y);\n
+        print(x-y);\n
+        print(x*y);\n
+        print(x/y);\n
+        print(x%y);\n
+        ");
+        // tokenize("print(x+y);");
     }
 }
